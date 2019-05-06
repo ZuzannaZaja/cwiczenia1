@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".WelcomeScreen">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:text="Welcome!"
+        android:textSize="@android:dimen/app_icon_size"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/email"
+        android:textSize="@android:dimen/app_icon_size"
+        android:textStyle="normal|italic"
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"
+        android:layout_below="@id/welcome"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/location"
+        android:background="@color/colorPrimaryDark"
+        android:layout_below="@id/email"
+        android:text="Location"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
