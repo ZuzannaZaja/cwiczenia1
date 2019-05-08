@@ -20,9 +20,9 @@ public class WelcomeScreen extends AppCompatActivity {
         email = findViewById(R.id.email);
         btn_location = findViewById(R.id.location);
         //TODO: ZADANIE 3
-        /*Intent intent = getIntent();
+        Intent intent = getIntent();
         String extraEmail = intent.getStringExtra("email");
-        email.setText(extraEmail);*/
+        email.setText(extraEmail);
 
 
 
